@@ -14,9 +14,9 @@ const letters = ['a', 'b', 'c'];
 const exclaim = s => `${s}!`;
 
 const transform = compose(
-  rogu('exclaim'), // Logs "['A!', 'B!', 'C!']"
+  rogu('After exclaim:'), // Logs "After exclaim: ['A!', 'B!', 'C!']"
   map(exclaim),
-  rogu('toUpper'), // Logs "['A', 'B', 'C']"
+  rogu('After toUpper:'), // Logs "After toUpper: ['A', 'B', 'C']"
   map(toUpper),
 );
 
