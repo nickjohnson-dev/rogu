@@ -1,0 +1,33 @@
+{
+  "name": "rogu",
+  "version": "1.0.0",
+  "description": "Simple, easy-to-import console.log that returns its value",
+  "main": "index.js",
+  "scripts": {
+    "release": "npm publish --registry http://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nickjohnson-dev/rogu.git"
+  },
+  "ava": {
+    "require": [
+      "babel-register"
+    ],
+    "babel": "inherit"
+  },
+  "keywords": [
+    "functional",
+    "helpers",
+    "logging"
+  ],
+  "author": {
+    "name": "Nick Johnson",
+    "email": "nickjohnson.dev@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nickjohnson-dev/rogu/issues"
+  },
+  "homepage": "https://github.com/nickjohnson-dev/rogu#readme"
+}
